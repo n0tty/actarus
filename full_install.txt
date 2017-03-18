@@ -79,7 +79,7 @@ gem install rspec-its
 ln -s /opt/wpscan/wpscan.rb /opt/bin/wpscan
 
 git clone https://github.com/gwen001/actarus.git
-
+cp actarus/composer.json .
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 php composer-setup.php
 rm composer-setup.php
