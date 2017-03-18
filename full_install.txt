@@ -86,7 +86,9 @@ rm composer-setup.php
 chown www-data.www-data composer.phar
 php composer.phar install
 
+cd actarus
 ./app/console doctrine:schema:update --force
 ./app/console fos:user:create
 
-launch daemons, make money...
+
+echo "launch daemons, make money..."
