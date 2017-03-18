@@ -39,7 +39,7 @@ chmod +x configure
 make
 ln -s /opt/dirb/dirb /opt/bin/dirb
 cd ../
-
+mkdir /opt/bin
 ln -s /opt/dnsexpire/dnsexpire.php /opt/bin/dnsexpire
 ln -s /opt/dnsrecon/dnsrecon.py /opt/bin/dnsrecon
 ln -s /opt/github-search/gsearch.sh /opt/bin/github-search
