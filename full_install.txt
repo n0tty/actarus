@@ -10,7 +10,7 @@ aptitude install libv8-dev
 pecl install v8js-0.1.3
 
 aptitude install python-pip python-2.7-dev python-curl libcurl4-openssl-dev
-pip2 install dnsknife netaddr requests paramiko python-mysqldb
+pip2 install dnsknife netaddr requests paramiko MySQL-python
 
 aptitude install git whois hydra nikto sqlmap whatweb awscli
 
@@ -38,6 +38,7 @@ chmod +x configure
 ./configure
 make
 ln -s /opt/dirb/dirb /opt/bin/dirb
+cd ../
 
 ln -s /opt/dnsexpire/dnsexpire.php /opt/bin/dnsexpire
 ln -s /opt/dnsrecon/dnsrecon.py /opt/bin/dnsrecon
