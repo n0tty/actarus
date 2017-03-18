@@ -14,12 +14,12 @@ pip2 install dnsknife netaddr requests paramiko MySQL-python
 
 aptitude install git whois hydra nikto sqlmap whatweb awscli
 
-git clone git@github.com:gwen001/SecLists
-git clone git@github.com:gwen001/Wappalyzer
-git clone git@github.com:gwen001/dnsexpire
-git clone git@github.com:gwen001/github-search
-git clone git@github.com:gwen001/pentest-tools
-git clone git@github.com:gwen001/s3-buckets-extractor
+git clone https://github.com/gwen001/SecLists.git
+git clone https://github.com/gwen001/Wappalyzer.git
+git clone https://github.com/gwen001/dnsexpire.git
+git clone https://github.com/gwen001/github-search.git
+git clone https://github.com/gwen001/pentest-tools.git
+git clone https://github.com/gwen001/s3-buckets-extractor.git
 
 git clone git://git.kali.org/packages/theharvester.git
 git clone git://git.kali.org/packages/davtest.git
@@ -29,7 +29,7 @@ git clone git://git.kali.org/packages/patator.git
 git clone git://git.kali.org/packages/smtp-user-enum.git
 git clone https://github.com/wpscanteam/wpscan
 
-git clone https://github.com/urbanadventurer/WhatWeb
+git clone https://github.com/urbanadventurer/WhatWeb.git
 
 tar -xvzf dirb222.tar.gz
 mv dirb222 dirb
